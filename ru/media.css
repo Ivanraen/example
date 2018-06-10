@@ -1,0 +1,150 @@
+
+@media all and (max-width: 930px) {
+	body .all-site  {
+		max-width: 750px;
+	}
+	.flexslider:hover .slides p {
+	padding: 0px 5px 0px 5px;
+	}
+	.stryktyra__main {
+		text-align: center;
+		font-size: 16px;
+	}
+	.stryktyra__main img{
+	max-width:200px;
+	}
+	.first__stryktyra-img {
+		margin-left:0px;
+		text-align: center;
+	}
+	.second__stryktyra-img {
+		margin-right: 0px;
+		text-align: center;
+	}
+	.first__stryktyra-img p {
+		position:static;
+	}
+	.second__stryktyra-img p {
+		position:static;
+	}
+	#page__contacts {
+		text-align: center;
+	}
+	#page__contacts iframe {
+		width: 550px;
+		height: 400px;
+	}
+
+
+
+}
+@media only screen and (max-width : 768px) {
+	.all-site  {
+		max-width: 450px;
+	}
+}
+@media only screen and (max-width : 650px) {
+	.all-site  {
+		max-width: 300px;
+	}
+	nav {
+		margin-top: 20px;
+	}
+	.language-icon {
+		display: none;
+	}
+	.saite-container {
+		justify-content: center;
+		margin: 0 auto;
+	}
+	#page__contacts iframe {
+		width: 420px;
+		height: 200px;
+	}
+	.news__main-article p {
+		display: none;
+	}
+	#news__main-absolute {
+		top: 50%;
+		left: 270px;
+
+	}
+	.news__main-article img {
+		max-width: 300px;
+		max-height: 150px;
+	}
+}
+@media only screen and (max-width : 480px) {
+	#page__contacts iframe {
+		width: 280px;
+		height: 200px;
+
+	}
+}
+
+@media all and (max-width: 1205px) {
+	.all-site  {
+		max-width: 900px;
+	}
+	.dws-menu {
+		overflow: hidden;
+		display: none;
+	}
+ .dws-menu ul {
+		flex-direction: column;
+	}
+	.toggleMenu {
+		display:block;
+	}
+	.dws-menu > ul li a {
+		background:#ececed;
+	}
+	.dws-menu > ul li a:hover {
+		background:#ececed;
+		color: black;
+	}
+	input.toggleMenu:checked + label.toggleMenu {
+		background:#82B1FF;
+		color: #fff;
+	}
+	.dws-menu > ul li:first-child{
+		border: none;
+	}
+	input.toggleMenu:checked ~ ul,
+	input.toggleSubmenu:checked ~ ul{
+		display:block;
+		position:relative;
+	}
+	.dws-menu label.toggleSubmenu {
+		position:absolute;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		display: block;
+	}
+    input.toggleSubmenu:checked ~ a{
+		background: #82B1FF;
+		color: #fff;
+	}
+	.dws-menu label.toggleSubmenu .fa::before{
+		content: "\f0d7";
+		color: #454547;
+	} 
+	.dws-menu label.toggleSubmenu .fa{
+		position: absolute;
+		top: 15px;
+		right: 30px;
+	} 
+	.dws-menu input.toggleSubmenu:checked ~ label.toggleSubmenu .fa::before{
+		content: "\f0d8";
+		color: #ffffff;
+	} 
+	.stryktyra__main {
+		font-size: 18px;
+	}
+	.stryktyra__main img{
+		max-width:300px;
+	}
+}
